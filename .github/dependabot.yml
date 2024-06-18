@@ -4,12 +4,18 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+    branches:
+      - dependabot/bundler/ruby/business-2.3.0/.github/dependabot.yml
   - package-ecosystem: npm
     directory: "/javascript"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+    branches:
+      - dependabot/bundler/ruby/business-2.3.0/.github/dependabot.yml
   - package-ecosystem: bundler
     directory: "/ruby"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+    branches:
+      - dependabot/bundler/ruby/business-2.3.0/.github/dependabot.yml
