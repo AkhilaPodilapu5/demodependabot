@@ -4,12 +4,31 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+    branches:
+      - dependabot/bundler/ruby/business-2.3.0/.github/dependabot.yml
+      - dependabot/bundler/ruby/uk_phone_numbers-0.1.1/.github/dependabot.yml
+      - dependabot/github_actions/actions/checkout-4
+      - dependabot/github_actions/actions/setup-java-4
+      - dependabot/npm_and_yarn/javascript/hot-formula-parser-4.0.0
+      - dev
   - package-ecosystem: npm
     directory: "/javascript"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+    branches:
+      - dependabot/bundler/ruby/business-2.3.0/.github/dependabot.yml
+      - dependabot/github_actions/actions/checkout-4
+      - dependabot/github_actions/actions/setup-java-4
+      - dependabot/npm_and_yarn/javascript/hot-formula-parser-4.0.0
+      - dev
   - package-ecosystem: bundler
     directory: "/ruby"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+    branches:
+      - dependabot/bundler/ruby/business-2.3.0/.github/dependabot.yml
+      - dependabot/github_actions/actions/checkout-4
+      - dependabot/github_actions/actions/setup-java-4
+      - dependabot/npm_and_yarn/javascript/hot-formula-parser-4.0.0
+      - dev
